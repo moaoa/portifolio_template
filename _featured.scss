@@ -1,0 +1,17 @@
+.featured {
+  &__content {
+    width: 80%;
+    padding: 10%;
+    .purple__subtitle {
+      color: $bg-hero;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

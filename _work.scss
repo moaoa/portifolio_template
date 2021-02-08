@@ -1,0 +1,27 @@
+.work {
+  &__item {
+    &__content {
+      span {
+        color: $bg-hero;
+        text-transform: uppercase;
+        font-size: 14px; // on desktop 20px
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        // add it in desktop letter-spacing: 0.18em;
+      }
+      h2 {
+        margin-top: -10px; // negative margin;
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 28px;
+        // font-size is 41px at desktop
+        line-height: 50px;
+      }
+      p {
+      }
+    }
+    img {
+    }
+  }
+}

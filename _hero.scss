@@ -1,0 +1,26 @@
+.hero {
+  background-color: $bg-hero;
+  margin-top: 55px;
+  padding: 30px;
+
+  &__content {
+    text-align: center;
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #fff;
+    }
+    .hero__subtitle {
+      color: $hero-subtitle-color;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 10px;
+    }
+  }
+
+  img {
+    width: auto;
+  }
+}

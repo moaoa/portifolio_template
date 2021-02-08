@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  text-transform: capitalize;
+
+  &__nav {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $bg-header;
+    padding: 0 1.5rem;
+    a:not(.logo) {
+      color: white;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        font-size: 0.875rem;
+        font-weight: 400;
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .social-nav {
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

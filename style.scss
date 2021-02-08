@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+@import "variables";
+@import "global";
+
+@import "header";
+@import "hero";
+@import "featured";
+@import "skills";
+@import "work";
+@import "hire-me";
+@import "footer";
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .hero > svg,
+  .social-nav {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+} ;
